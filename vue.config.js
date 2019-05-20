@@ -40,7 +40,7 @@ module.exports = {
   },
   devServer: {
     disableHostCheck: true,
-    port:80,
+    port:'80',
     proxy: { // 在这里配置如下代码
       '/marking': {
         target:apiRoot, // 你请求的第三方接口
